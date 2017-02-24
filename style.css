@@ -5,3 +5,13 @@
   transform: translateX(-50%);
   top: 10%;
 }
+
+.text-pangolin {
+  font-family: 'Pangolin', cursive;
+}
+.text-magenta {
+  color: #92294c;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
