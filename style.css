@@ -18,3 +18,9 @@
 .text-center {
   text-align: center;
 }
+.bg-magenta {
+  background: #92294c;
+}
+.h-2 {
+  height: 1px;
+}

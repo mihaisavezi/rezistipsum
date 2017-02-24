@@ -9,84 +9,110 @@
 </head>
 
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=269932686413553";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=269932686413553";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>
+        window.twttr = (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
 
-<script>window.twttr = (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0],
-            t = window.twttr || {};
-    if (d.getElementById(id)) return t;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = "https://platform.twitter.com/widgets.js";
-    fjs.parentNode.insertBefore(js, fjs);
+            t._e = [];
+            t.ready = function (f) {
+                t._e.push(f);
+            };
 
-    t._e = [];
-    t.ready = function(f) {
-        t._e.push(f);
-    };
-
-    return t;
-}(document, "script", "twitter-wjs"));</script>
-
+            return t;
+        }(document, "script", "twitter-wjs"));
+    </script>
     <main>
         <article class="bg-white">
-            <img src="img/rezist.png" class="img-above"/>
+            <img src="img/rezist.png" class="img-above" />
             <div class="vh-75 cover bg-center" style="background-image: url(img/header-1.jpg);"></div>
-            <div>
-                <div class="fb-like" data-href="http://rezistipsum.ro" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world&hashtags=rezist&url=http://rezistipsum.ro">Tweet</a>
-                <script src="https://apis.google.com/js/platform.js" async defer></script>
-                <div class="g-plus" data-action="share" data-href="http://rezistipsum.ro"></div>
-            </div>
             <div class="ph4 ph5-m ph6-l">
                 <div class="pt5 pb3 f4 f2-ns measure center">
                     <h1 class="fw6 f1 fl w-100 black-70 mt0 mb4 avenir measure-wide tc center text-pangolin text-magenta text-uppercase">#Rezist Ipsum</h1>
-
                     <p class="db lh-copy black-70 serif fw1 mv0 f4 f3-m f3-l measure-wide center baskerville text-center">
-                        Generator static de placeholder text ca simbol al rezistentei. <br/> Iti genereaza text pe care sa-l folosesti in proiectele
-                        tale pe baza mesajelor care au fost afisate in Piata Victoriei si in tara in perioada protestelor
-                        anti-coruptie care au inceput in Ianuarie 2017.
+                        Generator static de placeholder text ca simbol al rezistentei. <br/> Iti genereaza text pe care sa-l
+                        folosesti in proiectele tale pe baza mesajelor care au fost afisate in Piata Victoriei si in tara
+                        in perioada protestelor anti-coruptie care au inceput in Ianuarie 2017.
                     </p>
                 </div>
                 <div class="pt5 pb3 f4 f2-ns measure center">
                     <h1 class="fw6 f1 fl w-100 black-70 mt0 mb4 avenir measure-wide tc center text-pangolin text-magenta text-uppercase">#Copiaza</h1>
                     <p class="db lh-copy black-70 serif fw1 mv0 f4 f3-m f3-l measure-wide center baskerville text-center">
-
+                        Alta intrebare? Alta guvernare! "Altă întrebare, marş la închisoare!" Altă întrebare: când plecaţi voi oare? "Amnistie pentru
+                        voi, doar în viața de apoi!" "Antena 3, niște lachei!" "Buzău, Buzău, Dragnea la bulău!" "Cine nu
+                        sare, nu vrea abrogare!" "Cine nu sare, nu vrea schimbare!" Cine sunteti voi/Sa treceti peste noi?
+                        Ciorbea și CNA apără corupția! "CNA, cât mai rabzi corupția?" "CNA, fa-ți datoria!"
                     </p>
+                    <p class="db lh-copy black-70 serif fw1 f4 f3-m f3-l measure-wide center baskerville text-center">
+                        Dragnea ai fost rău/ Du-te la bulău (dată de Alina Vilcan). Dragnea nu fi trist la Jilava au dentist! Dragnea şi cu Tăriceanu
+o să scoată cărţi la anu! "Dragnea, ai exagerat/ Noi te vrem încarcerat (dată de Alina)" "Dragnea, nu uita, România nu-i
+a ta!" "Dragnea, nu uita, te așteapta Codruța!" "Dragnea, nu uita, te așteapta DNA!" "Fără amnistie, la puşcărie!" Fără supărare/
+Marș la închisoare "Grindeanu, Grindeanu/ Te râde tot neamu' (dată de Alina)"
+                    </p>
+                    <p class="db lh-copy black-70 serif fw1 f4 f3-m f3-l measure-wide center baskerville text-center">
+                        "Ministrul trădare, altă întrebare!" Noi de-aicea nu plecăm / Nu plecăm acasă / Până când nu renunţaţi / La ordonanţa voastră!
+"Nu ne provocați, puneți mâna şi-abrogați" "Nu plecăm acasă, morții nu ne lasă!" Nu stati la ferestre haideti la proteste
+"Nu vrem să ne transformați în hoți, sclavi și emigranți!" Ordonanțe dedicate cu urgențe inventate! "Până dimineaţă, radem
+o mustaţă!" "Pe ei, Pe ei, Pe ei cu anii grei!" Protestăm pentru că doare; altă întrebare?! PSD cu părul creţ fură noaptea
+din coteţ PSD partidul mafie "PSD, nu uita, țara asta nu-i a ta!" Putorile ordinare să rămână la răcoare!
+                    </p>
+                    <div class="bg-magenta mt4 w-10 h-2 center"></div>
                 </div>
-
-
-                <blockquote class="mh0 pr0 mt6 mb1 w-50 center">
-                    <p class="f2 f4-l fw1 mv0 tc lh-title baskerville">
+                <div class="pt5 pb3 f4 f2-ns measure center">
+                    <h1 class="text-pangolin text-magenta tc text-uppercase">SA VA FIE RUSINE!</h1>
+                    <div class="flex flex-column justify-center content-center measure">
+                        <div class="flex w-100 measure-narrow-ns center flex-wrap justify-start">
+                            <p style="width:160px" class="text-pangolin text-magenta f4 ma0 mr3">si daca dati:</p>
+                            <div style="width:80px !important" class="fb-like flex-auto-ns" data-href="http://rezistipsum.ro" data-layout="standard" data-action="like" data-size="small" data-show-faces="true"
+        data-share="true"></div>
+                        </div>
+                        <div class="flex w-100 measure-narrow-ns center flex-wrap justify-start mt2">
+                            <p style="width:160px" class="text-pangolin text-magenta f4 ma0 mr3">si daca dati:</p>
+                    <a class="twitter-share-button flex-auto-ns" href="https://twitter.com/intent/tweet?text=Hello%20world&hashtags=rezist&url=http://rezistipsum.ro">Tweet</a>                        
+                        </div>
+                        <div class="flex w-100 measure-narrow-ns center flex-wrap justify-start mt2">
+                            <p style="width:160px" class="text-pangolin text-magenta f4 ma0 mr3">si daca dati:</p>
+                            <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <div class="g-plus flex-auto-ns" data-action="share" data-href="http://rezistipsum.ro"></div>
+                        </div>
+                        <div class="flex w-100 measure-narrow-ns center flex-wrap justify-start mt2">
+                            <p style="width:160px" class="text-pangolin text-magenta f4 ma0 mr3">si daca donati prin:</p>
+                            <script id='fb27nxx'>
+                                (function (i) { var f, s = document.getElementById(i); f = document.createElement('iframe'); f.src = '//button.flattr.com/view/?fid=3py3vr&button=compact&url=' + encodeURIComponent(document.URL); f.title = 'Flattr'; f.height = 20; f.width = 110; f.style.borderWidth = 0; s.parentNode.insertBefore(f, s); })('fb27nxx');
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <blockquote class="mh0 pr0 mt6 mb1 w-100 w-50-ns center">
+                    <p class="f4 f4-l fw1 mv0 tc lh-title baskerville">
                         “The minority rule will show us how it all it takes is a small number of intolerant virtuous people with skin in the game,
                         in the form of courage, for society to function properly.”
                     </p>
+                    
                     <p class="tc f6 gray">
                         Nassim Nicholas Taleb
                     </p>
                 </blockquote>
-                <div class="pt5 pb3 f4 f2-ns measure center">
-                  <h1 class="text-pangolin text-magenta tc text-uppercase">SA VA FIE RUSINE!</h1>
-                </div>
             </div>
         </article>
     </main>
     <footer class="pv4 ph3 tc">
-        <a class="link near-black hover-silver dib mh3 tc" href="https://facebook.com/sharer.php?u=http://www.rezistipsum.ro" title="Facebook">
-            <svg class="dib h2 w2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd"
-                stroke-linejoin="round" stroke-miterlimit="1.414">
-                <path d="M15.117 0H.883C.395 0 0 .395 0 .883v14.234c0 .488.395.883.883.883h7.663V9.804H6.46V7.39h2.086V5.607c0-2.066 1.262-3.19 3.106-3.19.883 0 1.642.064 1.863.094v2.16h-1.28c-1 0-1.195.476-1.195 1.176v1.54h2.39l-.31 2.416h-2.08V16h4.077c.488 0 .883-.395.883-.883V.883C16 .395 15.605 0 15.117 0"
-                    fill-rule="nonzero" />
-            </svg>
-            <span class="f6 db mt2">Facebook</span>
-        </a>
         <a class="link near-black hover-silver dib mh3 tc" href="//github.com/mihaisavezi/rezistipsum" title="GitHub">
             <svg class="dib h2 w2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd"
                 stroke-linejoin="round" stroke-miterlimit="1.414">
@@ -95,16 +121,17 @@
             </svg>
             <span class="f6 db mt2">GitHub</span>
         </a>
-    <a class="link hover-silver near-black dib mh3 tc " href="https://twitter.com/intent/tweet?text=rezistam" title="Twitter ">
-        <svg class="dib h2 w2 " fill="currentColor " xmlns="http://www.w3.org/2000/svg " viewBox="0 0 16 16
-            " fill-rule="evenodd " clip-rule="evenodd " stroke-linejoin="round " stroke-miterlimit="1.414 "><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407
-            1.198-1.05 1.443-1.816-.634.375-1.337.648-2.085.795-.598-.638-1.45-1.036-2.396-1.036-1.812 0-3.282 1.468-3.282 3.28
-            0 .258.03.51.085.75C5.152 5.39 2.733 4.084 1.114 2.1.83 2.583.67 3.147.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0
-            1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.416-.02-.617-.058.418 1.304 1.63 2.253 3.067 2.28-1.124.88-2.54
-            1.404-4.077 1.404-.265 0-.526-.015-.783-.045 1.453.93 3.178 1.474 5.032 1.474 6.038 0 9.34-5 9.34-9.338 0-.143-.004-.284-.01-.425.64-.463
-            1.198-1.04 1.638-1.7z " fill-rule="nonzero "/></svg>
-        <span class="f6 db mt2">Twitter</span>
-    </a>
     </footer>
 </body>
+<script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-92598836-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
 </html>
