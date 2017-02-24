@@ -1,0 +1,19 @@
+{
+  "name": "rezistipsum",
+  "version": "1.0.0",
+  "description": "rezist ipsum generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihaisavezi/rezistipsum.git"
+  },
+  "author": "Ciprian, Diana, Mihai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mihaisavezi/rezistipsum/issues"
+  },
+  "homepage": "https://github.com/mihaisavezi/rezistipsum#readme"
+}
